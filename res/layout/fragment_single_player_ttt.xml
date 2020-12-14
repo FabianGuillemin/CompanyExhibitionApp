@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SinglePlayerTTT">
+
+    <TextView
+        android:id="@+id/textViewTTT"
+        android:layout_width="302dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="44dp"
+        android:autoText="true"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="Tic Tac Toe"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTTT"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTTT"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTTT"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/button1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/button0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="80dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/HomeButtonTTT"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="80dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/HomeButtonTTT"
+        app:layout_constraintEnd_toStartOf="@+id/button0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button0"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="80dp"
+        android:background="?attr/colorControlHighlight"
+        android:fontFamily="@font/acme"
+        android:textColor="@android:color/black"
+        android:textSize="?android:attr/windowTitleSize"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/HomeButtonTTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonReset"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/HomeButtonTTT" />
+</androidx.constraintlayout.widget.ConstraintLayout>
